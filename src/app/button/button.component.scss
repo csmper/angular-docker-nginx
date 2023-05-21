@@ -1,0 +1,18 @@
+button {
+    background: lightgray;
+    color: black;
+    border: none;
+    padding: 8px .825rem;
+    border-radius: 3px;
+    cursor: pointer;
+    
+    &:hover {
+        background: blue;
+        color: white;
+    }
+
+    &:active {
+        background: lightblue;
+        color: black;
+    }
+}
