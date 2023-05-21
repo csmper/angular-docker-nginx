@@ -1,4 +1,13 @@
-<div [style.display]="'flex'" [style.gap.rem]="1" [style.margin.rem]="1">
-  <app-button (click)="collectLogs()" label="Collect Grafana Logs"></app-button>
-  <app-button (click)="pushErrors()" label="Collect Error Logs"></app-button>
+<nav class="navbar bg-primary navbar-dark">
+  <div class="container-fluid">
+    <span class="navbar-brand">Grafana Example</span>
+  </div>
+</nav>
+<div class="p-2">
+  <div class="grid d-flex gap-3">
+    <app-button (click)="collectLogs()" label="Collect Grafana Logs"></app-button>
+    <app-button (click)="pushErrors()" label="Collect Error Logs"></app-button>
+    <input class="ps-2" type="text" placeholder="Datepicker" bsDatepicker>
+    <input class="ps-2" type="text" placeholder="Daterangepicker" bsDaterangepicker>
+  </div>
 </div>

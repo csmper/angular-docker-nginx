@@ -21,6 +21,7 @@
     "@grafana/faro-web-sdk": "^1.0.5",
     "@grafana/faro-web-tracing": "^1.0.5",
     "bootstrap": "^5.2.3",
+    "ngx-bootstrap": "^10.2.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
